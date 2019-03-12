@@ -5,12 +5,11 @@
 
 [NxFilter](http://www.nxfilter.org/) - An easy to use DNS server with configurable filters and user controls.
 
-This image is based on [1science/java](https://registry.hub.docker.com/u/1science/java/) for the slimmed down Java and overall container footprint.
+This image is fully maked by me.
 
 ### Supported Tags
 
--       [`latest`](https://github.com/packetworks/docker-nxfilter/tree/nxfilter-latest)
--       [`experimental`](https://github.com/packetworks/docker-nxfilter/tree/nxfilter-experimental)
+[`latest, 8.3.3.4`](https://github.com/emanuelflp/nxfilter/)
 
 ### Usage
 
