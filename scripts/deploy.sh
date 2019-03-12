@@ -11,7 +11,4 @@ if [[ "$versao" != "$lastRelease" ]]; then
 	docker build --build-arg "NXFILTER_VERSION=${versao}" -t emanuelflp/nxfilter:${versao} .
 	docker push emanuelflp/nxfilter:${versao}
 	echo ${versao} > lastRelease.txt
-	git stage -A
-	git commit -m "Travis-CI: Gerada imagem docker para a versão ${versao}"
-	git push
 fi

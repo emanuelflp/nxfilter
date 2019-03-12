@@ -17,5 +17,5 @@ upload_files() {
 }
 
 setup_git
-commit_files
+commit_files $1
 upload_files
