@@ -9,7 +9,7 @@ This image is fully maked by me.
 
 ### Supported Tags
 
-[`latest, 8.3.3.4`](https://github.com/emanuelflp/nxfilter/)
+[`latest, 8.3.3.8`](https://github.com/emanuelflp/nxfilter/)
 
 ### Usage
 
