@@ -3,7 +3,7 @@
 
 ![nothing](http://www.nxfilter.org/p2/wp-content/uploads/2014/07/rb_logo41.png)
 
-###[NxFilter](http://www.nxfilter.org/) - An easy to use DNS server with configurable filters and user controls.
+[NxFilter](http://www.nxfilter.org/) - An easy to use DNS server with configurable filters and user controls.
 
 This image is fully maked by me.
 
