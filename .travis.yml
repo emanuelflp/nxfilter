@@ -2,8 +2,9 @@ sudo: required
 services: docker
 language: generic
 
-before_deploy:
+before_script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
+  - curl --output nxfilter.txt "http://www.nxfilter.org/changelog/nxfilter.txt"
 
 deploy:
   provider: script
