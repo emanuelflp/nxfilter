@@ -1,7 +1,7 @@
 FROM emanuelflp/zulu-jdk:8.0.202
 
 MAINTAINER Emanuel Felipe <emanuelflp@gmail.com>
-ENV NXFILTER_VERSION 4.3.3.5
+ARG NXFILTER_VERSION
 
 # Download nxfilter
   RUN apk add --no-cache unzip curl && \
