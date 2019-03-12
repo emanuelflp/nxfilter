@@ -5,11 +5,10 @@ ARG NXFILTER_VERSION
 
 # Download nxfilter
   RUN apk add --no-cache unzip curl && \
-      curl -o /tmp/nxfilter-${NXFILTER_VERSION}.zip http://nxfilter.org/download/nxfilter-${NXFILTER_VERSION}.zip && \
+      curl -o /tmp/nxfilter-${NXFILTER_VERSION}.zip http://pub.nxfilter.org/nxfilter-${NXFILTER_VERSION}.zip && \
       mkdir /nxfilter && \
       unzip /tmp/nxfilter-${NXFILTER_VERSION}.zip -d /nxfilter && \
       rm -f /tmp/nxfilter-${NXFILTER_VERSION}.zip && \
       chmod +x /nxfilter/bin/startup.sh
 
-#CMD ["/nxfilter/bin/startup.sh","start"]
 CMD ["/nxfilter/bin/startup.sh"]
