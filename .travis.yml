@@ -1,5 +1,6 @@
 sudo: required
-services:docker
+services: docker
+language: generic
 
 before_deploy:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
